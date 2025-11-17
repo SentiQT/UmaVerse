@@ -121,6 +121,9 @@
       width: 20px;
       height: 20px;
     }
+    .clickable {
+      cursor: pointer;
+    }
      nav {
         background-color: #7c5295;
     }
