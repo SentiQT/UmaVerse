@@ -85,6 +85,7 @@
     }
     .article-img img {
       max-width: 100%;
+      min-width: 50%
       height: auto;
       border-radius: 10px;
     }
@@ -186,3 +187,4 @@
     text-align: center;
   }
 }
+
