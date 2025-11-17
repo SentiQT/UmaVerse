@@ -85,7 +85,7 @@
       flex: 1;
     }
     .article-img img {
-      width: 50%
+      max-width: 50%
       height: auto;
       border-radius: 10px;
     }
@@ -190,12 +190,13 @@
     width: 75%;
     text-align: center;
   }
-}
-.article-img img {
+  .article-img img {
       width: 50%
       height: auto;
       border-radius: 10px;
     }
+}
+
 
 
 
