@@ -83,12 +83,17 @@
     }
     .article-img {
       flex: 1;
+      max-width: 600px; 
+      margin: 0 auto;   
     }
+    
     .article-img img {
-      max-width: 50%
+      max-width: 100%;
       height: auto;
       border-radius: 10px;
     }
+
+    
     .quote {
       font-style: italic;
     }
@@ -190,11 +195,11 @@
     width: 75%;
     text-align: center;
   }
-  .article-img img {
-      width: 50%
-      height: auto;
-      border-radius: 10px;
-    }
+   .article-img {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
 }
 
 
