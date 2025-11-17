@@ -77,6 +77,7 @@
       align-items: center;
       gap: 20px; 
     }
+    
     .article-text {
       flex: 2;
     }
@@ -94,6 +95,10 @@
     }
     .quote p {
       font-size: 10px;
+    }
+    .flex {
+      display: flex;
+      flex-direction: column;
     }
     .section-link {
       text-decoration: none;
@@ -187,4 +192,5 @@
     text-align: center;
   }
 }
+
 
