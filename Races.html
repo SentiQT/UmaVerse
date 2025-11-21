@@ -394,7 +394,7 @@
   </div>
 
   <script>
-    // Filtering and sorting functions (compatible with your existing dataset)
+    
     function applyFilters(){
       const q = document.getElementById('q').value.trim().toLowerCase();
       const dist = document.getElementById('dist').value;
@@ -403,7 +403,7 @@
 
       rows.forEach(r=>{
         const name = r.cells[0].textContent.toLowerCase();
-        const dText = r.cells[4].textContent.replace(/\s|m/g,''); // e.g. "1600 m" -> "1600"
+        const dText = r.cells[4].textContent.replace(/\s|m/g,''); 
         const d = parseInt(dText) || 0;
         const s = r.cells[5].textContent.trim();
 
@@ -472,4 +472,5 @@
 
 
 </body>
+
 </html>
